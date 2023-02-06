@@ -158,6 +158,7 @@ You can deploy this project using:
 - [ ] **[Will_try_update_html_file]**
 - [ ] **[Will_try_to_update_css_file]**
 - [ ] **[will_try_to_update_javascript_file]**
+- [ ] **[will_try_to_add_contact_section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
