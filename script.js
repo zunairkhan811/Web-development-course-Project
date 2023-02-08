@@ -8,9 +8,4 @@ wrap.addEventListener('click', () => {
     wrap.classList.toggle('change-wrap');
 })
 
-// wrap.addEventListener('click', () => {
-//     navlistmobile.style.display = 'none';
-//     menubarfluid.style.remove.background = '#272a32';
-//     wrap.classList.remove('change-wrap');
-// })
 

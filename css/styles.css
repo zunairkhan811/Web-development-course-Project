@@ -37,12 +37,14 @@ html {
   }
 
   .menu-bar-fluid{
-    height: 100vh;
-    transition: 1s ease;
+    height: 100px;
+    transition: 0.7s ease-in-out;
   }
 
   .menu-bar-fluid-background-change{
-   background-color: var(--color-background);
+    background: var(--color-background);
+    height: 100vh;
+    z-index: 1;
   }
 
   .wrap {
@@ -89,6 +91,7 @@ html {
     transform: translateY(-4px) rotate(45deg);
     background: var(--color-white);
   }
+
   .nav-list-mobile {
     display: none;
     position: relative;
@@ -104,7 +107,9 @@ html {
    display: flex;
    flex-direction: column;
    justify-content: center; 
-   align-items: center;   
+   align-items: center;
+   border: 1px solid var(--color-grey);  
+   margin: 4rem 2rem; 
   }
 
   .nav-list-mobile li a{
@@ -113,10 +118,93 @@ html {
     text-decoration: none;
     color: var(--color-secondary)
   }
-
-  .nav-list-mobile li a:hover{
-    color: #585858;
+  .nav-list-mobile li:hover{
+    background: var(--color-secondary);
   }
+  .nav-list-mobile li a:hover{
+    color: var(--color-white)
+  }
+
+  /* Home page section start from here */
+
+  .home-page-fluid-container{
+    background: url(/images/background2.jpg);
+    height: 74vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+  }
+  
+   .main-home-container{
+    display: flex;
+    flex-direction: column;
+   } 
+   .heading-1{
+    position: relative;
+    margin: 2rem 5rem;
+   }
+    .heading-1 h1{
+      font-size: 20rem;
+      font-family: var(--primary-font-family);
+      font-weight: 400;
+      color: var(--color-secondary);
+    }
+   .heading-2{
+    position: relative;
+    margin: 2rem 8rem;
+    width: 280rem;
+   }
+    .heading-2 h2{
+      letter-spacing: 2rem;
+      font-size: 25rem;
+      font-family: var(--primary-font-family);
+      font-weight: bolder;
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      background-image: linear-gradient(to bottom right,var(--color-secondary), orange);
+    }
+
+    .para-heading{
+      position: relative;
+      top: 9rem;
+      margin: 2rem 8rem;
+      width: 280rem;
+      background-color: var(--color-white);
+     }
+      .para-heading p{
+        font-size: 12rem;
+        padding: 4rem;
+        margin: 3rem;
+        color: var(--color-background);
+      }
+    .heading-3{
+      position: relative;
+      top: 19rem;
+      margin: 2rem 8rem;
+      width: 280rem;
+     }
+      .heading-3 h3{
+        font-size: 20rem;
+        padding: 2rem;
+        font-family: var(--primary-font-family);
+        font-weight: 700;
+        color: var(--color-grey);
+      }
+    .heading-4{
+      position: relative;
+      top: 19rem;
+      margin: 2rem 8rem;
+      width: 310rem;
+     }
+      .heading-4 h4{
+        font-size: 15rem;
+        padding: 2rem;
+        font-family: var(--primary-font-family);
+        font-weight: bolder;
+        color: var(--color-background);
+      }
+
+  /* Main course section start from here */
 
   .main-program {
     overflow-y: scroll;
@@ -209,6 +297,7 @@ html {
   
     .nav-bar-fluid-container{
       display: block;
+      overflow: hidden;
     }
   .header-columns {
     display: flex;
@@ -304,6 +393,11 @@ html {
   .nav-bar-btn:hover{
     background-color: #f1f089;
     color: var(--color-secondary);
+  }
+
+  .main-home-container{
+    position: relative;
+    top: 40rem;
   }
 
   .main-program-box {
