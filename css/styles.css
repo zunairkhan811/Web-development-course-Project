@@ -348,14 +348,12 @@ html {
     top: -59rem;
   }
   .nav-bar-container{
-    border: 2px solid #ec5242;
     height: 60rem;
   }
   .nav-list{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #ec5242;
     height: 55rem;
     width: 590rem;
     position: relative;
@@ -385,14 +383,14 @@ html {
     align-items: center;
     padding: 3rem;
     width: 110rem;
-    height: 40rem;
+    color: var(--color-secondary);
     font-size: 20rem;
     cursor: pointer;
     border: 3px solid var(--color-secondary);
   }
   .nav-bar-btn:hover{
-    background-color: #f1f089;
-    color: var(--color-secondary);
+    background-color: var(--color-secondary);
+    color: var(--color-white);
   }
 
   .main-home-container{
