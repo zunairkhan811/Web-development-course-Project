@@ -720,8 +720,14 @@ html {
     height: 50vh;
   }
   .about-page-fluid-container {
-    height: 50vh;
+    height: 74vh;
   }
+  .logo-section {
+    height: 45vh;
+}
+.past-section {
+  height: 80vh;
+}
   .main-program {
     height: 80vh;
   }
@@ -738,8 +744,8 @@ html {
     height: 62vh;
   }
   .about-page-fluid-container {
-    height: 62vh;
-  }
+    height: 77vh;
+}
   .main-program {
     height: 92vh;
   }
@@ -757,8 +763,11 @@ html {
     height: 35vh;
   }
   .about-page-fluid-container {
-    height: 35vh;
+    height: 44vh;
   }
+  .past-section {
+    height: 39vh;
+}
   .about-heading-1 {
     display: none;
   }
@@ -960,11 +969,26 @@ html {
   .about-page-fluid-container {
     height: 29vh;
   }
+  .logo-section {
+    height: 30vh;
+}
+.past-section {
+  height: 28vh;
+}
+.partner-section {
+  height: 18vh;
+}
 }
 @media only screen and (min-width: 1024px) {
   html {
     font-size: 7%;
   }
+  .logo-section {
+    height: 69vh;
+}
+.past-section {
+  height: 69vh;
+}
   .main-program {
     height: 77vh;
   }

@@ -158,18 +158,18 @@ const minimize1 = document.querySelector('.minimize1');
 const minimize2 = document.querySelector('.minimize2');
 const minimize3 = document.querySelector('.minimize3');
 featurebtn.addEventListener('click', () => {
-        minimize1.classList.toggle('minimize-box');
-        minimize2.classList.toggle('minimize-box');
-        minimize3.classList.toggle('minimize-box');
-        featurebtn.classList.toggle('changefeaturebtn');
-        featurebtn1.classList.toggle('changefeaturebtn1');    
+ minimize1.classList.toggle('minimize-box');
+ minimize2.classList.toggle('minimize-box');
+ minimize3.classList.toggle('minimize-box');
+ featurebtn.classList.toggle('changefeaturebtn');
+ featurebtn1.classList.toggle('changefeaturebtn1');    
 })
 
 featurebtn1.addEventListener('click', () => {
-    featurebtn1.classList.remove('changefeaturebtn1');
-    featurebtn.classList.remove('changefeaturebtn');
-    minimize1.classList.remove('minimize-box');
-    minimize2.classList.remove('minimize-box');
-    minimize3.classList.remove('minimize-box');
+featurebtn1.classList.remove('changefeaturebtn1');
+featurebtn.classList.remove('changefeaturebtn');
+minimize1.classList.remove('minimize-box');
+minimize2.classList.remove('minimize-box');
+minimize3.classList.remove('minimize-box');
 });
 
