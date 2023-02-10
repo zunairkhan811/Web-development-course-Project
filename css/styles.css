@@ -708,7 +708,7 @@ html {
   .pastimage1::before {
     content: '';
     position: absolute;
-    background: url(images/pastpicimage1.jpg);
+    background: url(./images/pastpicimage1.jpg);
     background-size: cover;
     width: 100%;
     height: 200px;
@@ -747,7 +747,7 @@ html {
   .pastimage2::before {
     content: '';
     position: absolute;
-    background: url(images/pastpicimage2.jpg);
+    background: url(./images/pastpicimage2.jpg);
     background-size: cover;
     width: 100%;
     height: 200px;
@@ -1122,13 +1122,14 @@ html {
   }
 
   .main-program {
-    height: 69vh;
+    height: 70vh;
   }
 
   .main-program::before {
-    height: 69vh;
+    height: 70vh;
   }
-  .feature-program{
+
+  .feature-program {
     position: relative;
     top: 30rem;
   }
