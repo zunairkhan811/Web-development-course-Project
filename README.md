@@ -69,7 +69,7 @@ This project has been made using html, css, javascript and bootstrap according t
 
 <!-- Note: Right now Application hasn't been Deployed yet. In future if this will be deployed,
 Deployed Link will update here -->
-- [Live Demo Link]  <a href="#"><button type="button" color:red background: white>Visit Site</button></a>
+- [Live Demo Link]  <a href="https://zunairkhan811.github.io/Web-development-course-Project/"><button type="button" color:red background: white>Visit Site</button></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,9 +138,9 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+<!-- AUTHOR -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="author"></a>
 
 
 
@@ -187,7 +187,8 @@ Thanks!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank Microverse and Cindy Shin in Behance design for inspiring me enough to make this project
+I would like to give credit to <a href="https://creativecommons.org/licenses/">Cindy Shin</a> in Behance design for inspiring me enough to make this project
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
