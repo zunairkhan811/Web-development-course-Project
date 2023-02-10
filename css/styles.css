@@ -210,7 +210,6 @@ html {
   /* Main course section start from here */
 
   .main-program {
-    overflow-y: scroll;
     height: 100vh;
   }
   .main-program::before {
@@ -397,6 +396,49 @@ html {
   .minimize-box{
     display: flex;
   }
+
+  .partner-section{
+    position: relative;
+    top: 75rem;
+    height: 45vh;
+    background-color: var(--color-background);
+  }
+
+  .partner-main-text {
+    color: white;
+    font-size: 30rem;
+  }
+  .partner-main-text-line {
+    width: 38rem;
+    background-color: var(--color-secondary);
+    height: 1rem;
+  }
+  .partner-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30rem;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+  }
+  .img1{
+    width: 100px;
+  }
+
+  .img2{
+    width: 195px;
+  }
+  .img3{
+    width: 58px;
+    height: 68px;
+  }
+  .img4{
+    width: 60px;
+  }
+
+
 }
 
 @media only screen and (min-width: 390px) {
