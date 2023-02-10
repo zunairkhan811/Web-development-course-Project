@@ -508,7 +508,7 @@ html {
   /* About section css start from here */
 
   .about-page-fluid-container {
-    background: url(/images/background2.jpg);
+    background: url(../images/background2.jpg);
     height: 97vh;
     background-repeat: no-repeat;
   }
