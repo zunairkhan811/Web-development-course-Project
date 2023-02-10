@@ -453,6 +453,7 @@ html {
     display: flex;
     font-size: 20rem;
     justify-content: center;
+    text-align: center;
     align-items: center;
     position: relative;
     top: 73rem;
@@ -556,7 +557,7 @@ html {
     color: var(--color-grey);
   }
   .logo-section {
-    height: 100vh;
+    height: 63vh;
     width: 100%;
   }
 
@@ -598,6 +599,121 @@ html {
   .webly-logo img{
     width: 250px;
   }
+  .past-section {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .past-text {
+    color: var(--color-background);
+    font-size: 30rem;
+    text-align: center;
+  }
+  .past-text-line {
+    width: 38rem;
+    background-color: var(--color-secondary);
+    height: 1rem;
+  }
+
+  .past-para-heading {
+    position: relative;
+    top: 26rem;
+    margin: auto;
+    width: 90%;
+    background-color: var(--color-white);
+  }
+  .past-para-heading p {
+    font-size: 20rem;
+    text-align: center;
+    padding: 4rem;
+    margin: 3rem;
+    color: var(--color-background);
+  }
+  .past-pic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 42rem;
+  }
+  .pastimage1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin: 14rem auto;
+    background-color: var(--color-secondary);
+    opacity: 0.9;
+  }
+  .pastimage1::before{
+    content: '';
+    position: absolute;
+    background: url(/images/pastpicimage1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    opacity: 0.3;
+    z-index: -2;
+  }
+  .pastimage1 h2{
+    font-size: 49rem;
+    font-family: var(--primary-font-family);
+    text-align: center;
+    font-weight: bolder;
+    color: var(--color-white);
+  }
+  .pastimage1 p{
+    font-size: 17rem;
+    letter-spacing: 1rem;
+    font-family: var(--primary-font-family);
+    text-align: center;
+    color: var(--color-white);
+  }
+  
+  .pastimage2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin: 14rem auto;
+    background-color: var(--color-secondary);
+    opacity: 0.9;
+  }
+  .pastimage2::before{
+    content: '';
+    position: absolute;
+    background: url(/images/pastpicimage2.jpg);
+    background-size:cover ;
+    width: 100%;
+    height: 200px;
+    opacity: 0.3;
+    z-index: -2;
+  }
+  .pastimage2 h2{
+    font-size: 49rem;
+    font-family: var(--primary-font-family);
+    text-align: center;
+    font-weight: bolder;
+    color: var(--color-white);
+  }
+  .pastimage2 p{
+    font-size: 17rem;
+    letter-spacing: 1rem;
+    font-family: var(--primary-font-family);
+    text-align: center;
+    color: var(--color-white);
+  }
+
+}
+  
+
 
 @media only screen and (min-width: 390px) {
   .home-page-fluid-container {
@@ -816,6 +932,18 @@ html {
   }
   .partner-section {
     height: 22vh;
+  }
+  .past-pic{
+    flex-direction: row;
+  }
+  .pastimage1{
+    margin: 14rem 8rem
+  }
+  .pastimage1::before{
+    width: 49%;
+  }
+  .pastimage2::before{
+    width: 49%;
   }
 }
 
