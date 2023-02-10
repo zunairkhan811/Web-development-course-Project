@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: coco1;
   src: url(/coco1.ttf);
@@ -12,6 +13,7 @@ html {
   font-size: 6.25%;
   scroll-behavior: smooth;
 }
+
 :root {
   --primary-font-family: "Lato", sans-serif;
   --primary-color: #ff6b00;
@@ -77,6 +79,7 @@ html {
   .change-wrap #bar1 {
     transform: translateY(2px) rotate(-45deg);
     background: var(--color-white);
+
     /* font-weight: lighter; */
   }
 
@@ -99,6 +102,7 @@ html {
     top: 90rem;
     transition: 1s ease;
   }
+
   .nav-list-mobile-change {
     display: block;
   }
@@ -118,9 +122,11 @@ html {
     text-decoration: none;
     color: var(--color-secondary);
   }
+
   .nav-list-mobile li:hover {
     background: var(--color-secondary);
   }
+
   .nav-list-mobile li a:hover {
     color: var(--color-white);
   }
@@ -137,30 +143,31 @@ html {
     display: flex;
     flex-direction: column;
   }
+
   .heading-1 {
     position: relative;
     margin: 2rem 5rem;
   }
+
   .heading-1 h1 {
     font-size: 20rem;
     font-family: var(--primary-font-family);
     font-weight: 400;
     color: var(--color-secondary);
   }
+
   .heading-2 {
     position: relative;
     margin: 2rem 8rem;
     width: 280rem;
   }
+
   .heading-2 h2 {
     letter-spacing: 2rem;
     font-size: 25rem;
     font-family: var(--primary-font-family);
     font-weight: bolder;
-    background-clip: text;
     -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -o-background-clip: text;
     color: transparent;
     background-image: url(/images/orangeimg1.jpg);
   }
@@ -172,18 +179,21 @@ html {
     width: 280rem;
     background-color: var(--color-white);
   }
+
   .para-heading p {
     font-size: 12rem;
     padding: 4rem;
     margin: 3rem;
     color: var(--color-background);
   }
+
   .heading-3 {
     position: relative;
     top: 19rem;
     margin: 2rem 8rem;
     width: 280rem;
   }
+
   .heading-3 h3 {
     font-size: 20rem;
     padding: 2rem;
@@ -191,12 +201,14 @@ html {
     font-weight: 700;
     color: var(--color-grey);
   }
+
   .heading-4 {
     position: relative;
     top: 19rem;
     margin: 2rem 8rem;
     width: 310rem;
   }
+
   .heading-4 h4 {
     font-size: 15rem;
     padding: 2rem;
@@ -210,6 +222,7 @@ html {
   .main-program {
     height: 100vh;
   }
+
   .main-program::before {
     content: "";
     background: url(/images/main-bg-2.png);
@@ -221,10 +234,12 @@ html {
     height: 100vh;
     z-index: -1;
   }
+
   .main-text {
     color: white;
     font-size: 30rem;
   }
+
   .main-text-line {
     width: 38rem;
     background-color: var(--color-secondary);
@@ -251,12 +266,14 @@ html {
     filter: invert(100%);
     z-index: -1;
   }
+
   .h2class {
     color: var(--color-secondary);
     font-size: 16rem;
     text-align: center;
     position: relative;
   }
+
   .pclass {
     color: var(--color-white);
     font-size: 11rem;
@@ -264,6 +281,7 @@ html {
     margin: auto;
     position: relative;
   }
+
   .main-program-btn {
     padding: 9rem;
     background-color: var(--color-secondary);
@@ -272,9 +290,11 @@ html {
     margin: 19rem auto;
     cursor: pointer;
   }
+
   .main-program-btn:hover {
     border: 2px solid #f1eaea;
   }
+
   .seeprogramclass {
     display: none;
   }
@@ -284,10 +304,12 @@ html {
     position: relative;
     top: 15rem;
   }
+
   .feature-main-text {
     color: var(--color-background);
     font-size: 30rem;
   }
+
   .feature-main-text-line {
     width: 38rem;
     background-color: var(--color-secondary);
@@ -316,22 +338,26 @@ html {
   .feature-img-box img {
     width: 100rem;
   }
+
   .info-box {
     width: 162rem;
     margin-left: 8rem;
   }
+
   .info-box h1 {
     font-weight: bolder;
     font-size: 18rem;
     font-family: var(--primary-font-family);
     color: var(--color-background);
   }
+
   .info-box h2 {
     font-size: 15rem;
     font-family: var(--primary-font-family);
     color: var(--color-secondary);
     font-style: italic;
   }
+
   .info-box p {
     font-size: 12rem;
     line-height: 12rem;
@@ -347,6 +373,7 @@ html {
     margin-bottom: 9rem;
     border: 1px solid var(--color-tertiary);
   }
+
   .feature-btn {
     display: flex;
     justify-content: center;
@@ -359,6 +386,7 @@ html {
     color: var(--color-background);
     cursor: pointer;
   }
+
   .feature-btn i {
     color: var(--color-secondary);
     padding-left: 10rem;
@@ -368,12 +396,15 @@ html {
     background-color: var(--color-grey);
     color: white;
   }
+
   .changefeaturebtn {
     display: none;
   }
+
   .featurebtn1 {
     display: none;
   }
+
   .changefeaturebtn1 {
     display: block;
   }
@@ -381,9 +412,11 @@ html {
   .minimize1 {
     display: none;
   }
+
   .minimize2 {
     display: none;
   }
+
   .minimize3 {
     display: none;
   }
@@ -403,11 +436,13 @@ html {
     color: white;
     font-size: 30rem;
   }
+
   .partner-main-text-line {
     width: 38rem;
     background-color: var(--color-secondary);
     height: 1rem;
   }
+
   .partner-img-container {
     display: flex;
     justify-content: space-evenly;
@@ -418,6 +453,7 @@ html {
     margin: auto;
     width: 100%;
   }
+
   .img1 {
     width: 100px;
   }
@@ -425,10 +461,12 @@ html {
   .img2 {
     width: 195px;
   }
+
   .img3 {
     width: 58px;
     height: 68px;
   }
+
   .img4 {
     width: 60px;
   }
@@ -449,6 +487,7 @@ html {
     width: 228px;
     position: absolute;
   }
+
   .footer-para {
     display: flex;
     font-size: 20rem;
@@ -461,6 +500,7 @@ html {
     color: var(--color-background);
     padding: 4rem;
   }
+
   .seeprogramclass h2 {
     display: none;
   }
@@ -477,10 +517,12 @@ html {
     display: flex;
     flex-direction: column;
   }
+
   .about-heading-1 {
     position: relative;
     margin: 2rem 5rem;
   }
+
   .about-heading-1 h1 {
     display: flex;
     flex-direction: column;
@@ -491,10 +533,12 @@ html {
     font-weight: 400;
     color: var(--color-secondary);
   }
+
   .about-heading-2 {
     position: relative;
     width: 100%;
   }
+
   .about-heading-2 h2 {
     display: flex;
     flex-direction: column;
@@ -503,10 +547,7 @@ html {
     font-size: 30rem;
     font-family: var(--primary-font-family);
     font-weight: bolder;
-    background-clip: text;
     -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -o-background-clip: text;
     color: transparent;
     background-image: url(/images/orangeimg1.jpg);
   }
@@ -518,6 +559,7 @@ html {
     width: 90%;
     background-color: var(--color-white);
   }
+
   .about-para-heading p {
     font-size: 20rem;
     text-align: center;
@@ -533,6 +575,7 @@ html {
     width: 65%;
     background-color: var(--color-white);
   }
+
   .about-heading-3 h3 {
     font-size: 15rem;
     text-align: center;
@@ -548,6 +591,7 @@ html {
     margin: auto;
     width: 90%;
   }
+
   .about-heading-4 h4 {
     text-align: center;
     font-size: 18rem;
@@ -556,6 +600,7 @@ html {
     font-weight: 700;
     color: var(--color-grey);
   }
+
   .logo-section {
     height: 63vh;
     width: 100%;
@@ -566,6 +611,7 @@ html {
     font-size: 30rem;
     text-align: center;
   }
+
   .logo-text-line {
     width: 38rem;
     background-color: var(--color-secondary);
@@ -579,6 +625,7 @@ html {
     width: 90%;
     background-color: var(--color-white);
   }
+
   .logo-para-heading p {
     font-size: 20rem;
     text-align: center;
@@ -586,7 +633,8 @@ html {
     margin: 3rem;
     color: var(--color-background);
   }
-  .webly-logo{
+
+  .webly-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -596,9 +644,11 @@ html {
     top: 82rem;
     border: 1px solid var(--color-tertiary);
   }
-  .webly-logo img{
+
+  .webly-logo img {
     width: 250px;
   }
+
   .past-section {
     height: 100vh;
     width: 100%;
@@ -609,6 +659,7 @@ html {
     font-size: 30rem;
     text-align: center;
   }
+
   .past-text-line {
     width: 38rem;
     background-color: var(--color-secondary);
@@ -622,6 +673,7 @@ html {
     width: 90%;
     background-color: var(--color-white);
   }
+
   .past-para-heading p {
     font-size: 20rem;
     text-align: center;
@@ -629,7 +681,8 @@ html {
     margin: 3rem;
     color: var(--color-background);
   }
-  .past-pic{
+
+  .past-pic {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -639,7 +692,8 @@ html {
     position: relative;
     top: 42rem;
   }
-  .pastimage1{
+
+  .pastimage1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -650,7 +704,8 @@ html {
     background-color: var(--color-secondary);
     opacity: 0.9;
   }
-  .pastimage1::before{
+
+  .pastimage1::before {
     content: '';
     position: absolute;
     background: url(/images/pastpicimage1.jpg);
@@ -660,22 +715,24 @@ html {
     opacity: 0.3;
     z-index: -2;
   }
-  .pastimage1 h2{
+
+  .pastimage1 h2 {
     font-size: 49rem;
     font-family: var(--primary-font-family);
     text-align: center;
     font-weight: bolder;
     color: var(--color-white);
   }
-  .pastimage1 p{
+
+  .pastimage1 p {
     font-size: 17rem;
     letter-spacing: 1rem;
     font-family: var(--primary-font-family);
     text-align: center;
     color: var(--color-white);
   }
-  
-  .pastimage2{
+
+  .pastimage2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -686,54 +743,60 @@ html {
     background-color: var(--color-secondary);
     opacity: 0.9;
   }
-  .pastimage2::before{
+
+  .pastimage2::before {
     content: '';
     position: absolute;
     background: url(/images/pastpicimage2.jpg);
-    background-size:cover ;
+    background-size: cover;
     width: 100%;
     height: 200px;
     opacity: 0.3;
     z-index: -2;
   }
-  .pastimage2 h2{
+
+  .pastimage2 h2 {
     font-size: 49rem;
     font-family: var(--primary-font-family);
     text-align: center;
     font-weight: bolder;
     color: var(--color-white);
   }
-  .pastimage2 p{
+
+  .pastimage2 p {
     font-size: 17rem;
     letter-spacing: 1rem;
     font-family: var(--primary-font-family);
     text-align: center;
     color: var(--color-white);
   }
-
 }
-  
-
 
 @media only screen and (min-width: 390px) {
   .home-page-fluid-container {
     height: 50vh;
   }
+
   .about-page-fluid-container {
     height: 74vh;
   }
+
   .logo-section {
     height: 45vh;
-}
-.past-section {
-  height: 80vh;
-}
+  }
+
+  .past-section {
+    height: 80vh;
+  }
+
   .main-program {
     height: 80vh;
   }
+
   .main-program::before {
     height: 80vh;
   }
+
   .partner-section {
     height: 35vh;
   }
@@ -743,12 +806,15 @@ html {
   .home-page-fluid-container {
     height: 62vh;
   }
+
   .about-page-fluid-container {
     height: 77vh;
-}
+  }
+
   .main-program {
     height: 92vh;
   }
+
   .main-program::before {
     height: 92vh;
   }
@@ -762,12 +828,15 @@ html {
   .home-page-fluid-container {
     height: 35vh;
   }
+
   .about-page-fluid-container {
     height: 44vh;
   }
+
   .past-section {
     height: 39vh;
-}
+  }
+
   .about-heading-1 {
     display: none;
   }
@@ -785,6 +854,7 @@ html {
     display: block;
     overflow: hidden;
   }
+
   .header-columns {
     display: flex;
     align-items: center;
@@ -821,8 +891,10 @@ html {
     letter-spacing: 1rem;
     color: var(--color-white);
     text-decoration: none;
+
     /* font-family: 'coco'; */
   }
+
   .header-text:hover {
     color: var(--color-secondary);
   }
@@ -833,9 +905,11 @@ html {
     position: relative;
     top: -59rem;
   }
+
   .nav-bar-container {
     height: 60rem;
   }
+
   .nav-list {
     display: flex;
     justify-content: center;
@@ -844,6 +918,7 @@ html {
     width: 590rem;
     position: relative;
   }
+
   .nav-list li {
     display: flex;
     text-decoration: none;
@@ -857,6 +932,7 @@ html {
     color: var(--color-grey);
     font-size: 14rem;
   }
+
   .nav-list li a:hover {
     color: var(--color-secondary);
   }
@@ -873,6 +949,7 @@ html {
     cursor: pointer;
     border: 3px solid var(--color-secondary);
   }
+
   .nav-bar-btn:hover {
     background-color: var(--color-secondary);
     color: var(--color-white);
@@ -899,9 +976,11 @@ html {
     display: flex;
     flex-direction: column;
   }
+
   .pclass {
     text-align: center;
   }
+
   .seeprogramclass {
     display: flex;
     justify-content: center;
@@ -909,6 +988,7 @@ html {
     position: relative;
     right: 94rem;
   }
+
   .seeprogramclass h2 {
     display: flex;
     color: var(--color-white);
@@ -917,9 +997,11 @@ html {
     margin: 29rem 12rem 13rem auto;
     text-decoration: underline;
   }
+
   .main-program-btn {
     display: none;
   }
+
   .main-program::before {
     height: 33vh;
   }
@@ -927,31 +1009,40 @@ html {
   .feature-box {
     width: 281px;
   }
+
   .feature-btn-container {
     display: none;
   }
+
   .minimize1 {
     display: flex;
   }
+
   .minimize2 {
     display: flex;
   }
+
   .minimize3 {
     display: flex;
   }
+
   .partner-section {
     height: 22vh;
   }
-  .past-pic{
+
+  .past-pic {
     flex-direction: row;
   }
-  .pastimage1{
-    margin: 14rem 8rem
+
+  .pastimage1 {
+    margin: 14rem 8rem;
   }
-  .pastimage1::before{
+
+  .pastimage1::before {
     width: 49%;
   }
-  .pastimage2::before{
+
+  .pastimage2::before {
     width: 49%;
   }
 }
@@ -960,67 +1051,87 @@ html {
   .main-program {
     height: 28vh;
   }
+
   .main-program::before {
     height: 28vh;
   }
+
   .home-page-fluid-container {
     height: 29vh;
   }
+
   .about-page-fluid-container {
     height: 29vh;
   }
+
   .logo-section {
     height: 30vh;
+  }
+
+  .past-section {
+    height: 28vh;
+  }
+
+  .partner-section {
+    height: 18vh;
+  }
 }
-.past-section {
-  height: 28vh;
-}
-.partner-section {
-  height: 18vh;
-}
-}
+
 @media only screen and (min-width: 1024px) {
   html {
     font-size: 7%;
   }
+
   .logo-section {
     height: 69vh;
-}
-.past-section {
-  height: 69vh;
-}
+  }
+
+  .past-section {
+    height: 69vh;
+  }
+
   .main-program {
     height: 77vh;
   }
+
   .main-program::before {
     height: 77vh;
   }
+
   .home-page-fluid-container {
     height: 77vh;
   }
+
   .about-page-fluid-container {
     height: 77vh;
   }
+
   .seeprogramclass {
     right: 164rem;
   }
+
   .feature-box {
     width: 413px;
   }
+
   .partner-section {
     height: 37vh;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   html {
     font-size: 8%;
   }
+
   .main-program {
     height: 65vh;
   }
+
   .main-program::before {
     height: 65vh;
   }
+
   .seeprogramclass {
     right: 134rem;
   }
