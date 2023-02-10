@@ -41,37 +41,37 @@ const lecturesData = [
     lecturerName: 'Yochai Benkler',
     lecturerCertification: 'Full stack Developer Microverse Certified',
     lecturerInfo: 'Benkler has Contributed in Many Open-Source Softwares and is a well known Europe Professor',
-    lecturerImage: '/images/lecturer1.jpg',
+    lecturerImage: 'images/lecturer1.jpg',
   },
   {
     lecturerName: 'Kilnam Chon',
     lecturerCertification: 'Full stack Developer Microverse Certified',
     lecturerInfo: 'Kilnam has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
-    lecturerImage: '/images/lecturer2.jpg',
+    lecturerImage: 'images/lecturer2.jpg',
   },
   {
     lecturerName: 'SoYeong Noh',
     lecturerCertification: 'Full stack Developer Microverse Certified',
     lecturerInfo: 'SoYeong has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
-    lecturerImage: '/images/lecturer3.jpg',
+    lecturerImage: 'images/lecturer3.jpg',
   },
   {
     lecturerName: 'Julia Leda',
     lecturerCertification: 'Full stack Developer Microverse Certified',
     lecturerInfo: 'Julia has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
-    lecturerImage: '/images/lecturer4.jpg',
+    lecturerImage: 'images/lecturer4.jpg',
   },
   {
     lecturerName: 'Lila Tretikov',
     lecturerCertification: 'Full stack Developer Microverse Certified',
     lecturerInfo: 'Lila has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
-    lecturerImage: '/images/lecturer5.jpg',
+    lecturerImage: 'images/lecturer5.jpg',
   },
   {
     lecturerName: 'Reyan Merkley',
     lecturerCertification: 'Full stack Developer Microverse Certified',
     lecturerInfo: 'Ryan has Contributed in Many Open-Source Softwares and is a well known Harverd Professor',
-    lecturerImage: '/images/lecturer6.jpg',
+    lecturerImage: 'images/lecturer6.jpg',
   },
 ];
 
