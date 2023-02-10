@@ -131,7 +131,6 @@ html {
   .home-page-fluid-container{
     background: url(/images/background2.jpg);
     height: 61vh;
-    width: 100vw;
     background-repeat: no-repeat;
   }
   
@@ -438,6 +437,36 @@ html {
     width: 60px;
   }
 
+  .footer-section{
+    position: relative;
+    top: 120rem;
+  }
+
+  .footer-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 55rem;
+  }
+
+  .footer-img{
+    width: 300px;
+    position: absolute;
+  }
+  .footer-para{
+    display: flex;
+    font-size: 20rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 73rem;
+    font-family: var(--primary-font-family);
+    color: var(--color-background);
+    padding: 4rem;
+  }
+  .seeprogramclass h2 {
+    display: none;
+  }
 
 }
 
@@ -450,6 +479,9 @@ html {
 }
 .main-program::before{
   height: 80vh;
+}
+.partner-section{
+  height: 35vh;
 }
 
 }
@@ -464,6 +496,7 @@ html {
   .main-program::before{
     height: 92vh;
   }
+  
 }
 
 @media only screen and (min-width: 768px) {
@@ -638,6 +671,9 @@ html {
   .minimize3{
     display: flex;
   }
+  .partner-section {
+    height: 22vh;
+}
 }
 
 @media only screen and (min-width: 912px) {
@@ -670,6 +706,9 @@ html {
   .feature-box{
     width: 413px;
   }
+  .partner-section {
+    height: 37vh;
+}
 }
 @media only screen and (min-width: 1280px) {
   html {
