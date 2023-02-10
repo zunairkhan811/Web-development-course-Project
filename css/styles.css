@@ -169,7 +169,7 @@ html {
     font-weight: bolder;
     -webkit-background-clip: text;
     color: transparent;
-    background-image: url(/images/orangeimg1.jpg);
+    background-image: url(../images/orangeimg1.jpg);
   }
 
   .para-heading {
@@ -549,7 +549,7 @@ html {
     font-weight: bolder;
     -webkit-background-clip: text;
     color: transparent;
-    background-image: url(/images/orangeimg1.jpg);
+    background-image: url(../images/orangeimg1.jpg);
   }
 
   .about-para-heading {
