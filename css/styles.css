@@ -45,8 +45,8 @@ html {
 
   .menu-bar-fluid-background-change {
     background: var(--color-background);
-    height: 1000vh;
-    position: absolute;
+    height: 100vh;
+    position: fixed;
     z-index: 2000;
   }
 
@@ -118,6 +118,8 @@ html {
 
   .nav-list-mobile li a {
     font-size: 25rem;
+    width: 100%;
+    text-align: center;
     padding: 4rem;
     text-decoration: none;
     color: var(--color-secondary);
@@ -769,6 +771,20 @@ html {
     font-family: var(--primary-font-family);
     text-align: center;
     color: var(--color-white);
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .home-page-fluid-container {
+    height: 70vh;
+  }
+
+  .main-program {
+    height: 119vh;
+  }
+
+  .main-program::before {
+    height: 119vh;
   }
 }
 

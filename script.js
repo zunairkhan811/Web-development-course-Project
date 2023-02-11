@@ -15,26 +15,14 @@ const joiniconmobile1 = document.querySelector('#joiniconmobile');
 const sponsericonmobile1 = document.querySelector('#sponsericonmobile');
 const latesticonmobile1 = document.querySelector('#latesticonmobile');
 
-coursesiconmobile1.addEventListener('click', () => {
-  menubarfluid.classList.remove('menu-bar-fluid-background-change');
-  navlistmobile.classList.remove('nav-list-mobile-change');
-  wrap.classList.remove('change-wrap');
-});
-joiniconmobile1.addEventListener('click', () => {
-  menubarfluid.classList.remove('menu-bar-fluid-background-change');
-  navlistmobile.classList.remove('nav-list-mobile-change');
-  wrap.classList.remove('change-wrap');
-});
-sponsericonmobile1.addEventListener('click', () => {
-  menubarfluid.classList.remove('menu-bar-fluid-background-change');
-  navlistmobile.classList.remove('nav-list-mobile-change');
-  wrap.classList.remove('change-wrap');
-});
-latesticonmobile1.addEventListener('click', () => {
-  menubarfluid.classList.remove('menu-bar-fluid-background-change');
-  navlistmobile.classList.remove('nav-list-mobile-change');
-  wrap.classList.remove('change-wrap');
-});
+const menuArray = [coursesiconmobile1, joiniconmobile1, sponsericonmobile1, latesticonmobile1];
+for (let i = 0; i < menuArray.length; i++) {
+  menuArray[i].addEventListener('click', () => {
+    menubarfluid.classList.remove('menu-bar-fluid-background-change');
+    navlistmobile.classList.remove('nav-list-mobile-change');
+    wrap.classList.remove('change-wrap');
+  });
+}
 
 const lecturesData = [
   {
