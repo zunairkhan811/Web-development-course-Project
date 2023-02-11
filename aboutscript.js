@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 const navlistmobile = document.querySelector('.nav-list-mobile');
 const wrap = document.querySelector('#wrap');
 const menubarfluid = document.querySelector('.menu-bar-fluid');
@@ -11,18 +12,11 @@ wrap.addEventListener('click', () => {
   wrap.classList.toggle('change-wrap');
 });
 
-logoiconabout.addEventListener('click', () => {
-  menubarfluid.classList.remove('menu-bar-fluid-background-change');
-  navlistmobile.classList.remove('nav-list-mobile-change');
-  wrap.classList.remove('change-wrap');
-});
-pastbatchiconabout.addEventListener('click', () => {
-  menubarfluid.classList.remove('menu-bar-fluid-background-change');
-  navlistmobile.classList.remove('nav-list-mobile-change');
-  wrap.classList.remove('change-wrap');
-});
-partnericonabout.addEventListener('click', () => {
-  menubarfluid.classList.remove('menu-bar-fluid-background-change');
-  navlistmobile.classList.remove('nav-list-mobile-change');
-  wrap.classList.remove('change-wrap');
-});
+const aboutmenuArray = [logoiconabout, pastbatchiconabout, partnericonabout];
+for (let i = 0; i < aboutmenuArray.length; i++) {
+  aboutmenuArray[i].addEventListener('click', () => {
+    menubarfluid.classList.remove('menu-bar-fluid-background-change');
+    navlistmobile.classList.remove('nav-list-mobile-change');
+    wrap.classList.remove('change-wrap');
+  });
+}
