@@ -22,6 +22,7 @@ html {
   --color-white: #fff;
   --color-grey: #585858;
   --color-background: #272a32;
+  --color-background-secondary: #877772;
   --color-light-grey: #ebf0ee;
 }
 
@@ -67,7 +68,7 @@ html {
   .menu {
     width: 100%;
     height: 100%;
-    background: #877772;
+    background: var(--color-background-secondary);
     display: block;
     transition: 0.5s ease-in-out;
   }
@@ -79,8 +80,6 @@ html {
   .change-wrap #bar1 {
     transform: translateY(2px) rotate(-45deg);
     background: var(--color-white);
-
-    /* font-weight: lighter; */
   }
 
   .change-wrap #bar2 {
@@ -228,7 +227,7 @@ html {
   .main-program::before {
     content: "";
     background: url(/images/main-bg-2.png);
-    background-color: #272a32;
+    background-color: var(--color-background);
     background-repeat: repeat;
     position: absolute;
     width: 100%;

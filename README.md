@@ -1,3 +1,11 @@
+<a name="readme-top"></a>
+
+<div align="center">
+
+  <h3><b>**Web-Development-Course-Project**</b></h3>
+  <img src="./images/weblyeducationscreenshot.png" alt="project screenshot"/>
+
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -31,7 +39,7 @@
 my skills to  employers that i can make a responsive website using html, css, Javascript and Bootstrap.
 
 
-- [Video Link about Project] <a href="https://loom.com/share/b9814f9ce7c5488e91b1aa0b2a93a3fe"><button type="button" color:red background: white>Click Here</button></a>
+- [Video Link about Project] <a href="https://www.loom.com/share/c13e540824ce4b27b0929929af22c882"><button type="button" color:red background: white>Click Here</button></a>
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -120,14 +128,6 @@ To run the project, execute the following command:
 --> Click on live Link or Click on live server in Vs Studio.
 
 
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-In order to run for linter errors, you will have to create a pull request
---->
-
 ### Deployment
 
 You can deploy this project using:
@@ -140,13 +140,13 @@ You can deploy this project using:
 
 <!-- AUTHOR -->
 
-## 👥 Author <a name="author"></a>
+## 👥 Author <a name="authors"></a>
 
-
-
-👤 **Author**
+👤 **Muhammad Zunair khan**
 
 - GitHub: [@zunairkhan811](https://github.com/zunairkhan811)
+- Twitter: [@zunairkhan811](https://twitter.com/zunairkhan811)
+- LinkedIn: [mzunairkhan](https://linkedin.com/in/mzunairkhan)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

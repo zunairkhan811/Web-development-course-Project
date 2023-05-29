@@ -1,4 +1,3 @@
-/* eslint-disable no-plusplus */
 const navlistmobile = document.querySelector('.nav-list-mobile');
 const wrap = document.querySelector('#wrap');
 const menubarfluid = document.querySelector('.menu-bar-fluid');
